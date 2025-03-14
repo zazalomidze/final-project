@@ -1,0 +1,35 @@
+/* 768-481 */
+@media (max-width: 744px ){
+    header{
+        padding: 16px 24px;
+    }
+    .section1{
+        padding-top: 32px;
+        height: 480px;
+    }
+    .section2{
+        padding: 40px 0 60px 20px;
+    }
+.section2_title{
+    margin-bottom: 60px;
+}
+.catalog_section{
+    padding: 48px 24px;
+}
+
+.card_container{
+    grid-template-columns: 1fr;
+}
+.six,
+.five{
+    display: none;
+}
+
+/* contact  */
+.main_section_container{
+    padding: 16px;
+    flex-direction: column;
+    row-gap: 40px;
+}
+}
+
